@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 70%;
+	margin: 10px auto;
+}
+header{
+	background-color: yellow;
+	min-height: 200px;
+}
+nav{
+	background-color: black;	
+	height: 40px;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;		
+}
+nav ul li{
+	text-align: center;	
+	margin-top: 5px;
+}
+nav ul li a{
+	color: yellow;	
+	padding: 40px;
+	text-decoration: none;
+}
+#contenido{
+	display: flex;
+	min-height: 400px;
+}
+#contenido section{
+	background-color: #dedede;
+	width: 70%;	
+}
+#contenido aside{
+	background-color: gray;
+	width: 30%;
+}
+footer{
+	background-color: blue;
+	min-height: 100px;
+}
+.carrito{
+	width: 250px;
+	margin: 10px;
+}

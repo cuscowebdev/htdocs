@@ -1,0 +1,247 @@
+a {
+   color: #198e7f;
+   text-decoration: none;
+}
+
+
+a:active {
+   color: #00554A;
+}
+
+ul {
+   list-style: none;
+}
+
+.header-container {
+   max-width: 100%;
+   border-top: 8px solid #000;
+   margin-top: 0;
+   padding-top: 0;
+   position: relative;
+   z-index: 1000;
+}
+
+.header-container p {
+   color: #ccc;
+}
+
+.header-container img {
+   width: 100%;
+   height: 100vh;
+}
+
+.header-item {
+   margin: auto;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   color: white;
+   padding: 1rem;
+}
+
+.login-form {
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+   color: #000;
+   
+}
+
+.login-container {
+   display: flex;
+}
+
+.login-container div > input {
+   margin-right: 0.5rem;
+}
+
+.login-register {
+   margin-right: 0.5rem;
+}
+
+.login-bienvenido {
+   color: #000;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.nav-container ul {
+   display: flex;
+}
+
+.nav-container li {
+   flex-grow: 1;
+   flex: auto;
+}
+
+.nav-container a {
+   display: block;
+   text-align: center;
+   padding: 0.5rem 0;
+   transition: all .3s;
+}
+
+.nav-container a:hover {
+   background-color: #000;
+   color: #fff;
+}
+
+.index-container {
+   background-color: #fff;
+   max-width: 1200px;
+   margin: auto;
+   position: relative;
+   top: -10rem;
+   z-index: 2000;
+}
+
+.mejores-precios-container {
+   
+}
+
+.mejores-precios-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mejores-precios-item:nth-child(even) {
+   flex-direction: row-reverse;
+}
+
+.mejores-precios-content {
+   max-width: 600px;
+   padding: 1rem;
+}
+
+.mejores-precios-image {
+   max-width: 600px;
+}
+
+.mejores-precios-image img {
+   width: 100%;
+
+}
+
+
+
+/*chat online*/
+#wrapper,
+#loginform {
+   position: fixed;
+   z-index: 10000;
+   bottom: 0;
+   right: 0;
+}
+
+#wrapper,
+#loginform {
+   margin: 0 auto;
+   padding-bottom: 25px;
+   background: #EBF4FB;
+   width: 504px;
+   border: 1px solid #ACD8F0;
+}
+
+#loginform {
+   padding-top: 18px;
+}
+
+#loginform p {
+   margin: 5px;
+}
+
+#chatbox {
+   text-align: left;
+   margin: 0 auto;
+   margin-bottom: 25px;
+   padding: 10px;
+   background: #fff;
+   height: 270px;
+   width: 430px;
+   border: 1px solid #ACD8F0;
+   overflow: auto;
+}
+
+#usermsg {
+   width: 395px;
+   border: 1px solid #ACD8F0;
+}
+
+#submit {
+   width: 60px;
+}
+
+.error {
+   color: #ff0000;
+}
+
+#menu {
+   padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+   float: left;
+}
+
+.logout {
+   float: right;
+}
+
+.msgln {
+   margin: 0 0 2px 0;
+}
+
+/*Productos*/
+
+.productos-main {
+
+}
+
+.product-car {
+   width: 30%;
+}
+
+.productos-container {
+   width: 80%;
+}
+
+.product-item {
+   display: flex;
+   max-width: 200px;
+   margin: 1rem;
+   padding: 1rem;
+   flex-direction: column;
+   height: 310px;
+   overflow: hidden;
+   box-shadow: 0 0 0 1px #ddd;
+}
+
+.product-image {
+   display: block;
+   max-width: 168px;
+   height: 168px;
+}
+
+.product-image img {
+   width: 100%;
+   height: 100%;
+}
+
+.car-image {
+   max-width: 200px;
+}
+.car-image img {
+   width: 100%;
+}
+
+/*Footer*/
+.footer-container {
+   padding: 1rem;
+   background-color: #000;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}

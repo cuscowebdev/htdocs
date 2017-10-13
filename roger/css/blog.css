@@ -1,0 +1,112 @@
+/*Toda la parte del Blog*/
+html {
+   font-size: 16px;
+}
+.blog-container {
+   max-width: 1200px;
+   margin: auto;
+   font-family: sans-serif;
+}
+
+.blog-container a {
+   color: black;
+   text-decoration: none;
+}
+
+autor p {
+   margin: 0;
+   padding: 0;
+   
+}
+
+.blog-item {
+   display: flex;
+   width: 100%;
+   box-shadow: 0 0 2px 2px #ccc;
+   justify-content: space-between;
+   align-items: center;
+   margin: 1rem 0;
+}
+
+.blog-item:nth-child(even) {
+   flex-direction: row-reverse;
+}
+
+.blog-item:hover {
+   box-shadow: 0 0 3px 3px #aaa;
+}
+
+.blog-title {
+   margin-bottom: 0;
+}
+
+.blog-date {
+   text-align: left;
+}
+
+.blog-content {
+   padding: 1rem;
+   max-width: 600px;
+   text-align: center;
+}
+
+.blog-content-text {
+   max-width: 600px;
+   height: 180px;
+   overflow: hidden;
+   text-align: justify;
+}
+
+button.ver-mas {
+   margin: auto;
+   padding: .5rem 3rem;
+   border: none;
+   font-weight: bold;
+   font-size: 1.2rem;
+   text-align: center;
+   margin: auto;
+   background-color: #fff;
+   border: 1px solid #000;
+   border-radius: .5rem;
+   transition: all .3s;
+}
+
+button.ver-mas:hover {
+   background-color: #000;
+   color: #fff;
+}
+
+.blog-image {
+   max-width: 600px;
+   display: flex;
+}
+
+.blog-image img {
+   width: 100%;
+   height: 100%;
+   margin: auto;
+}
+
+.title-separador {
+   background-color: #000;
+   color: #000;
+   
+}
+/*Lectura*/
+.lectura-container {
+   max-width: 1200px;
+   margin: auto;
+   font-family: sans-serif;
+   box-shadow: 0 0 0 1px #000;
+}
+
+.lectura-item {
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.lectura-content-text {
+   text-align: justify;
+}
